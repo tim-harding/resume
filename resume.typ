@@ -24,8 +24,6 @@
 #set par(justify: false)
 #set underline(offset: 2pt)
 
-#show par: set block(spacing: 0.8em)
-
 #show heading.where(level: 1): it => [
     #set text(font: concourse(weight: black), size: 24pt)
     #align(center)[#it.body]
@@ -45,6 +43,7 @@
 ]
 
 #let institution(title, role, detail, start, end) = [
+    #show par: set block(spacing: 0.8em)
     #text(font: concourse(weight: semibold))[#role]
     #h(1fr)
     #text(font: concourse(tab: true))[
@@ -56,6 +55,8 @@
     #detail
 ]
 
+#[
+#show par: set block(spacing: 0.75em)
 = Tim Harding
 
 #link("tel:+12068524199")[(206) 852-4199]
@@ -65,8 +66,9 @@
 #link("http://www.timharding.co")[www.TimHarding.co]
 #h(1fr)
 #link("https://www.linkedin.com/in/timothy-j-harding/")[LinkedIn]
+]
 
-#space
+#v(16pt)
 == Education
 
 #institution("Western Washington University", "BS in Computer Science", "3.9 GPA", 2020, 2023)
