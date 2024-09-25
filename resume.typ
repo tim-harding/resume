@@ -21,7 +21,8 @@
 #set page(paper: "us-letter", margin: (top: 0.75in, x: 1.75in))
 #set text(font: concourse(), weight: "regular")
 #set list(indent: -10pt)
-#set par(justify: true)
+#set par(justify: false)
+#set underline(offset: 2pt)
 
 #show par: set block(spacing: 0.8em)
 
@@ -57,17 +58,15 @@
 
 = Tim Harding
 
-#align(center)[
-    #link("tel:+12068524199")[(206) 852-4199]
-    #h(18pt)
-    #link("mailto:tim@timharding.co")[Tim\@TimHarding.co]
-    #h(18pt)
-    #link("http://www.timharding.co")[www.TimHarding.co]
-    #h(18pt)
-    #link("https://www.linkedin.com/in/timothy-j-harding/")[LinkedIn]
-]
-\
+#link("tel:+12068524199")[(206) 852-4199]
+#h(1fr)
+#link("mailto:tim@timharding.co")[Tim\@TimHarding.co]
+#h(1fr)
+#link("http://www.timharding.co")[www.TimHarding.co]
+#h(1fr)
+#link("https://www.linkedin.com/in/timothy-j-harding/")[LinkedIn]
 
+#space
 == Education
 
 #institution("Western Washington University", "BS in Computer Science", "3.9 GPA", 2020, 2023)
