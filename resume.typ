@@ -16,20 +16,24 @@
     return name
 }
 
-#set page(paper: "us-letter", margin: (x: 0.5in, y: 0.5in))
+#let space = v(8pt)
+
+#set page(paper: "us-letter", margin: (top: 0.75in, x: 1.75in))
 #set text(font: concourse(), weight: "regular")
+#set list(indent: -10pt)
+#set par(justify: true)
+
 #show par: set block(spacing: 0.8em)
 
 #show heading.where(level: 1): it => [
     #set text(font: concourse(weight: black), size: 24pt)
-    #box(inset: (bottom: -1pt))[#it.body]
+    #align(center)[#it.body]
 ]
 
 #show heading.where(level: 2): it => [
-    #set text(font: concourse(weight: regular), weight: "regular", size: 12pt)
+    #set text(font: concourse(weight: bold), weight: "regular", size: 12pt)
     #grid(
-        rows: (auto, auto),
-        gutter: 12pt,
+        rows: (16pt, 2pt),
         grid.cell[#it.body],
         grid.cell[#line(length: 100%)],
     )
@@ -51,16 +55,18 @@
     #detail
 ]
 
-#grid(
-    columns: (1fr, auto, auto, auto, auto),
-    align: alignment.bottom,
-    gutter: 12pt,
-    grid.cell[= Tim Harding],
-    grid.cell[#link("tel:+12068524199")[(206) 852-4199]],
-    grid.cell[#link("mailto:tim@timharding.co")[Tim\@TimHarding.co]],
-    grid.cell[#link("http://www.timharding.co")[www.TimHarding.co]],
-    grid.cell[#link("https://www.linkedin.com/in/timothy-j-harding/")[LinkedIn]],
-)
+= Tim Harding
+
+#align(center)[
+    #link("tel:+12068524199")[(206) 852-4199]
+    #h(18pt)
+    #link("mailto:tim@timharding.co")[Tim\@TimHarding.co]
+    #h(18pt)
+    #link("http://www.timharding.co")[www.TimHarding.co]
+    #h(18pt)
+    #link("https://www.linkedin.com/in/timothy-j-harding/")[LinkedIn]
+]
+\
 
 == Education
 
@@ -70,11 +76,11 @@
 - Designed a system architecture that enables multithreaded communication between tens of thousands of networked virtual devices
 - Wrote a custom networking protocol stack with IP, TCP, and UDP, allowing for user extensibility and zero-copy packet delivery and manipulation
 - Helped onboard thirteen graduate and undergraduate collaborators
-\
 
+#space
 #institution("Seattle Central College", "AAS in Commercial Photography", "3.6 GPA", 2013, 2015)
-\
 
+#space
 == Work
 
 #institution("Ten Gun Design", "Technical Artist", "Edmonds, WA", 2016, 2020)
@@ -85,8 +91,8 @@
 - Lead development of a yearlong Unity VR automotive demo with a networked AR companion app
 - Wrote over 35 plugins and apps for artists to automate common tasks and simplify workflows
 - Produced hundreds of images and videos for Microsoft, Amazon, Paccar, Micron, Funko, and PowerA
-\
 
+#space
 #institution("Prizmiq", "3D Scanning Specialist", "Seattle, WA", 2015, 2016)
 
 - Built and operated a photogrammetry content pipeline for web-based 3D e-commerce visuals, delivering 100 assets to Shoes.com, Dye Precision, and the Burke Museum
