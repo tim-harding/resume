@@ -1,21 +1,16 @@
-#import "template.typ": institution, space, template
+#import "template.typ": institution, template
 
-#show: doc => template(doc)
+#show: doc => template(
+    author: "Tim Harding",
+    links: (
+        ([(206) 852-4199], "tel:+12068524199"),
+        ([Tim\@TimHarding.co], "mailto:tim@timharding.co"),
+        ([www.TimHarding.co], "http://www.timharding.co"),
+        ([LinkedIn], "https://www.linkedin.com/in/timothy-j-harding/"),
+    ),
+    doc
+)
 
-#[
-#show par: set block(spacing: 0.75em)
-= Tim Harding
-
-#link("tel:+12068524199")[(206) 852-4199]
-#h(1fr)
-#link("mailto:tim@timharding.co")[Tim\@TimHarding.co]
-#h(1fr)
-#link("http://www.timharding.co")[www.TimHarding.co]
-#h(1fr)
-#link("https://www.linkedin.com/in/timothy-j-harding/")[LinkedIn]
-]
-
-#v(16pt)
 == Education
 
 #institution("Western Washington University", "BS in Computer Science", "3.9 GPA", 2020, 2023)
@@ -25,10 +20,8 @@
 - Wrote a custom networking protocol stack with IP, TCP, and UDP, allowing for user extensibility and zero-copy packet delivery and manipulation
 - Helped onboard thirteen graduate and undergraduate collaborators
 
-#space
 #institution("Seattle Central College", "AAS in Commercial Photography", "3.6 GPA", 2013, 2015)
 
-#space
 == Work
 
 #institution("Ten Gun Design", "Technical Artist", "Edmonds, WA", 2016, 2020)
@@ -40,7 +33,6 @@
 - Wrote over 35 plugins and apps for artists to automate common tasks and simplify workflows
 - Produced hundreds of images and videos for Microsoft, Amazon, Paccar, Micron, Funko, and PowerA
 
-#space
 #institution("Prizmiq", "3D Scanning Specialist", "Seattle, WA", 2015, 2016)
 
 - Built and operated a photogrammetry content pipeline for web-based 3D e-commerce visuals, delivering 100 assets to Shoes.com, Dye Precision, and the Burke Museum
