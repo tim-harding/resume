@@ -27,6 +27,8 @@
     set par(justify: false)
     set underline(offset: 2pt)
 
+    document(title: "Tim Harding Resumé", author: "Tim Harding", keywords: ("resumé", "CV"), date: auto)
+
     show heading.where(level: 1): it => {
         set text(font: concourse(weight: black), size: 24pt)
         align(center, it.body)
