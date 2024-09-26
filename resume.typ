@@ -26,6 +26,8 @@
 
 #institution("Teaching Assistant", "Western Washington University", "Bellingham, WA", (2024,))
 
+- Ran labs, graded assignments, captioned videos, protored exams, and addressed student feedback on assignments
+
 #institution("Technical Artist", "Ten Gun Design", "Edmonds, WA", (2016, 2020))
 
 - Optimized Hololens graphics for the Holoisland demo to run at 60FPS, up from as low as 10FPS
