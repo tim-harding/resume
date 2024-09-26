@@ -2,13 +2,13 @@
 
 #let space = v(8pt)
 
-#let institution(role, organization, detail, start, end) = {
+#let institution(role, organization, detail, when) = {
     show par: set block(spacing: 0.8em)
     space
 
     text(font: concourse(weight: semibold), role)
     h(1fr)
-    text(font: concourse(tab: true))[#start#sym.dash.en#end]
+    text(font: concourse(tab: true), when.map(str).join(sym.dash.en))
     [\ ]
 
     text(font: concourse(caps: true), lower(organization))
