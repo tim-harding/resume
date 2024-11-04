@@ -22,6 +22,8 @@
 
 #institution("AAS in Commercial Photography", "Seattle Central College", "3.6 GPA", (2013, 2015))
 
+- Voted \#1 portfolio of graduating class by a panel of judges
+
 == Work
 
 #institution("Teaching Assistant", "Western Washington University", "Bellingham, WA", (2024,))
