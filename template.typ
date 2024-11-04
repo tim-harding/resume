@@ -3,7 +3,7 @@
 #let space = v(8pt)
 
 #let institution(role, organization, detail, when) = {
-    show par: set block(spacing: 0.8em)
+    set par(spacing: 0.8em)
     space
 
     text(font: concourse(weight: semibold), role)
@@ -49,7 +49,7 @@
     ]
 
     {
-        show par: set block(spacing: 0.75em)
+        set par(spacing: 0.75em)
         [= #author]
         grid(
             columns: links.map(_ => auto),
