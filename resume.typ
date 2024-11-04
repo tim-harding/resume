@@ -28,6 +28,10 @@
 
 - Ran labs, graded assignments, captioned videos, protored exams, and addressed student feedback on assignments
 
+#institution("Systems Builder", "Candela Technologies", "Ferndale, WA", (2022, 2023))
+
+- Assembled and tested orders for customized computer network testing devices
+
 #institution("Technical Artist", "Ten Gun Design", "Edmonds, WA", (2016, 2020))
 
 - Optimized Hololens graphics for the Holoisland demo to run at 60FPS, up from as low as 10FPS
@@ -41,4 +45,8 @@
 
 - Built and operated a photogrammetry content pipeline for web-based 3D e-commerce visuals, delivering 100 assets to Shoes.com, Dye Precision, and the Burke Museum
 
-// TODO: Projects, skills
+#institution("Sales associate", "Cycle University", "Seattle, WA", (2013,))
+
+- Paired customers with their perfect bike and set up test rides
+- Assembled product shipments
+- Ran checkout and helped shoppers navigate the sales floor
