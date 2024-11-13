@@ -44,9 +44,7 @@
         )
     }
 
-    show link: it => [
-        #underline(it.body)
-    ]
+    show link: underline
 
     {
         set par(spacing: 0.75em)
