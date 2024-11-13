@@ -19,11 +19,8 @@
 - Designed a system architecture that enables multithreaded communication between tens of thousands of networked virtual devices
 - Wrote a custom networking protocol stack with IP, TCP, and UDP, allowing for user extensibility and zero-copy packet delivery and manipulation
 - Helped onboard thirteen graduate and undergraduate collaborators
-- #link("https://apple.com")[Apple]
 
 #institution("AAS in Commercial Photography", "Seattle Central College", "3.6 GPA", (2013, 2015))
-
-- Voted \#1 portfolio of graduating class by a panel of judges
 
 == Work
 
