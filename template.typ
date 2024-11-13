@@ -21,7 +21,7 @@
     links: (),
     doc,
 ) = {
-    set page(paper: "us-letter", margin: (top: 0.75in, bottom: 0.5in, x: 1.75in), numbering: "1")
+    set page(paper: "us-letter", margin: (top: 0.75in, bottom: 0.5in, x: 1.75in))
     set text(font: concourse(), weight: "regular")
     set list(indent: -10pt)
     set par(justify: false)
