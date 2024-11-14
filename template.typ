@@ -25,7 +25,7 @@
     set page(paper: "us-letter", margin: (top: 0.5in, bottom: 0.5in, x: 1.75in))
     set text(font: concourse(), weight: regular)
     set list(indent: -10pt)
-    set par(justify: false, leading: 0.75em, spacing: 0.75em)
+    set par(justify: false, leading: 0.7em, spacing: 0.7em)
     set underline(offset: 2pt)
 
     set document(title: "Tim Harding Resumé", author: "Tim Harding", keywords: ("resumé", "CV"), date: auto)
