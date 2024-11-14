@@ -1,9 +1,9 @@
 #import "concourse.typ": *
 
-#let space = v(8pt)
+#let space = v(0pt)
 
 #let institution(role, organization, detail, when) = {
-    set par(spacing: 0.8em)
+    set par(leading: 0.6em, spacing: 0.6em)
     space
 
     text(font: concourse(weight: semibold), role)
@@ -14,6 +14,7 @@
     text(font: concourse(caps: true), lower(organization))
     h(1fr)
     detail
+    v(0.25em)
 }
 
 #let template(
@@ -21,10 +22,10 @@
     links: (),
     doc,
 ) = {
-    set page(paper: "us-letter", margin: (top: 0.75in, bottom: 0.5in, x: 1.75in))
-    set text(font: concourse(), weight: "regular")
+    set page(paper: "us-letter", margin: (top: 0.5in, bottom: 0.5in, x: 1.75in))
+    set text(font: concourse(), weight: regular)
     set list(indent: -10pt)
-    set par(justify: false)
+    set par(justify: false, leading: 0.75em, spacing: 0.75em)
     set underline(offset: 2pt)
 
     set document(title: "Tim Harding Resumé", author: "Tim Harding", keywords: ("resumé", "CV"), date: auto)
@@ -35,8 +36,7 @@
     }
 
     show heading.where(level: 2): it => {
-        set text(font: concourse(weight: bold), weight: "regular", size: 12pt)
-        space
+        set text(font: concourse(weight: bold), weight: regular, size: 12pt)
         grid(
             rows: (16pt, 2pt),
             grid.cell(it.body),
@@ -54,7 +54,7 @@
             gutter: 1fr,
             ..links.map(a => grid.cell(link(a.at(1), a.at(0))))
         )
-        space
     }
+    v(0.5em)
     doc
 }

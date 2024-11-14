@@ -5,8 +5,7 @@
     links: (
         ([(206) 852-4199], "tel:+12068524199"),
         ([Tim\@TimHarding.co], "mailto:tim@timharding.co"),
-        ([Website], "https://tim-harding.github.io/"),
-        ([LinkedIn], "https://www.linkedin.com/in/timothy-j-harding/"),
+        ([tim-harding.github.io], "https://tim-harding.github.io/"),
     ),
     doc
 )
@@ -19,18 +18,22 @@
 - Designed a system architecture that enables multithreaded communication between tens of thousands of networked virtual devices
 - Wrote a custom networking protocol stack with IP, TCP, and UDP, allowing for user extensibility and zero-copy packet delivery and manipulation
 - Helped onboard thirteen graduate and undergraduate collaborators
+#v(1em)
 
 #institution("AAS in Commercial Photography", "Seattle Central College", "3.6 GPA", (2013, 2015))
+// #v(1em)
 
 == Work
 
 #institution("Teaching Assistant", "Western Washington University", "Bellingham, WA", (2024,))
 
 - Ran labs, graded assignments, captioned videos, protored exams, and addressed student feedback on assignments
+#v(1em)
 
 #institution("Systems Builder", "Candela Technologies", "Ferndale, WA", (2022, 2023))
 
 - Assembled and tested orders for customized computer network testing devices
+#v(1em)
 
 #institution("Technical Artist", "Ten Gun Design", "Edmonds, WA", (2016, 2020))
 
@@ -40,6 +43,7 @@
 - Lead development of a yearlong Unity VR automotive demo with a networked AR companion app
 - Wrote over 35 plugins and apps for artists to automate common tasks and simplify workflows
 - Produced hundreds of images and videos for Microsoft, Amazon, Paccar, Micron, Funko, and PowerA
+#v(1em)
 
 #institution("3D Scanning Specialist", "Prizmiq", "Seattle, WA", (2015, 2016))
 
