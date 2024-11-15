@@ -22,7 +22,7 @@
     links: (),
     doc,
 ) = {
-    set page(paper: "us-letter", margin: (top: 0.5in, bottom: 0.5in, x: 1.75in), numbering: "1")
+    set page(paper: "us-letter", margin: (top: 1in, bottom: 1in, x: 1.75in), numbering: "1")
     set text(font: concourse(), weight: regular)
     set list(indent: -10pt)
     set par(justify: false, leading: 0.7em, spacing: 0.7em)
@@ -55,6 +55,6 @@
             ..links.map(a => grid.cell(link(a.at(1), a.at(0))))
         )
     }
-    v(0.5em)
+    v(1em)
     doc
 }

@@ -15,10 +15,7 @@
 
 #institution("BS in Computer Science", "Western Washington University", "3.9 GPA", (2020, 2023))
 
-- Founding member of Systems Research Group and lead author of its Internet simulation project
-- Onboarded and mentored thirteen graduate and undergraduate contributors
-- Designed a multithreaded networking abstraction to model diverse network topologies and handle routing between thousands of virtual devices
-- Wrote an extensible TCP/IP networking stack with zero-copy packet transmission
+- Graduated cum laude
 #v(1em)
 
 #institution("AAS in Commercial Photography", "Seattle Central College", "3.6 GPA", (2013, 2015))
@@ -66,7 +63,14 @@
 
 #head([Elvis], "https://github.com/cs-wwu/srg-elvis-public", [Rust])
 
-An Internet simulator created by Western's 
+An Internet simulator created with the Systems Research Group at Western. Unlike existing simulators, it runs in user space to avoid the overhead of using virtual machines for isolation. I wrote the majority of the core simulation code, including
+
+- A multithreaded network abstraction, used to route packets between thousands of virtual devices and model diverse network topologies
+- An operating system abstraction with networking stack extensibility
+- A novel data structure for packets, supporting zero-copy transmission and edits
+- A TCP/IP implementation that uses these technologies
+
+In addition to programming, I was a founding research group member and lead author of the group's first paper. As a project leader, I mentored and helped onboard thirteen graduate and undergraduate contributors by way of live coding lectures, pull request reviews, pair programming, and group discussion.
 #v(0.75em)
 
 #head([soa-rs], "https://github.com/tim-harding/soa-rs", [Rust])
