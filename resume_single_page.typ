@@ -49,3 +49,21 @@
 #institution("3D Scanning Specialist", "Prizmiq", "Seattle, WA", (2015, 2016))
 
 - Built and operated a photogrammetry content pipeline for 3D e-commerce imagery, delivering over 100 assets to Shoes.com, Dye Precision, and the Burke Museum
+
+== Projects
+
+=== #link("https://github.com/tim-harding/soa-rs")[soa-rs]
+
+soa-rs is a structure-of-arrays library for Rust, intended for use in data-oriented design and performance-critical software. It uses macros to generate linear data structures optimized for sequential access and SIMD operations while providing a safe, ergonomic API. 
+
+=== #link("https://github.com/tim-harding/neophyte")[Neophyte]
+
+Neophyte is a Neovim GUI, rendered with WebGPU and written in Rust. In addition to visual enhancements over the terminal experience, such as animations and smooth scrolling, it also provides a Lua API, allowing users to easily script and customize the interface.
+
+=== #link("https://github.com/tim-harding/community_chess")[Community Chess]
+
+Community Chess is an collaborative chess game on Reddit, moderated by a Python bot. Users can submit and vote on move suggestions, and the bot will periodically play the top move and submit an image of the new position. 
+
+=== #link("https://github.com/tim-harding/Kradical")[Kradical]
+
+Utilities for working with the EDRDG Japanese dictionary, including text encoding converters, parsers, a REST API server with an access API in TypeScript, and a dictionary website created with Svelte. 
