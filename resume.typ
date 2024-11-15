@@ -63,14 +63,12 @@
 
 #head([Elvis], "https://github.com/cs-wwu/srg-elvis-public", [Rust])
 
-An Internet simulator created with the Systems Research Group at Western. Unlike existing simulators, it runs in user space to avoid the overhead of using virtual machines for isolation. I wrote the majority of the core simulation code, including
-
+An Internet simulator created with the Systems Research Group at Western. Unlike existing simulators, it runs in user space to avoid the overhead of using virtual machines for isolation. As the lead author, I mentored and helped onboard thirteen graduate and undergraduate contributors by way of live coding lectures, pull request reviews, pair programming, and group discussion. I also wrote the majority of the core simulation code, including
+#v(0.5em)
 - A multithreaded network abstraction, used to route packets between thousands of virtual devices and model diverse network topologies
 - An operating system abstraction with networking stack extensibility
 - A novel data structure for packets, supporting zero-copy transmission and edits
 - A TCP/IP implementation that uses these technologies
-
-In addition to programming, I was a founding research group member and lead author of the group's first paper. As a project leader, I mentored and helped onboard thirteen graduate and undergraduate contributors by way of live coding lectures, pull request reviews, pair programming, and group discussion.
 #v(0.75em)
 
 #head([soa-rs], "https://github.com/tim-harding/soa-rs", [Rust])
