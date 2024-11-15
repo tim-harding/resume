@@ -1,4 +1,5 @@
 #import "template.typ": institution, template
+#import "concourse.typ": *
 
 #show: doc => template(
     author: "Tim Harding",
@@ -21,6 +22,8 @@
 #v(1em)
 
 #institution("AAS in Commercial Photography", "Seattle Central College", "3.6 GPA", (2013, 2015))
+
+- Voted best portfolio of graduating class by a panel of professionals
 #v(0.5em)
 
 == Work
@@ -52,18 +55,35 @@
 
 == Projects
 
-=== #link("https://github.com/tim-harding/soa-rs")[soa-rs]
+#show link: it => text(font: concourse(weight: semibold))[#it]
 
-soa-rs is a structure-of-arrays library for Rust, intended for use in data-oriented design and performance-critical software. It uses macros to generate linear data structures optimized for sequential access and SIMD operations while providing a safe, ergonomic API. 
+#let head(name, url, details) = {
+    link(url, name)
+    h(1fr)
+    text(font: concourse(weight: regular), details)
+    v(0.25em)
+}
 
-=== #link("https://github.com/tim-harding/neophyte")[Neophyte]
+#head([Elvis], "https://github.com/cs-wwu/srg-elvis-public", [Rust])
 
-Neophyte is a Neovim GUI, rendered with WebGPU and written in Rust. In addition to visual enhancements over the terminal experience, such as animations and smooth scrolling, it also provides a Lua API, allowing users to easily script and customize the interface.
+An Internet simulator created by Western's 
+#v(0.75em)
 
-=== #link("https://github.com/tim-harding/community_chess")[Community Chess]
+#head([soa-rs], "https://github.com/tim-harding/soa-rs", [Rust])
 
-Community Chess is an collaborative chess game on Reddit, moderated by a Python bot. Users can submit and vote on move suggestions, and the bot will periodically play the top move and submit an image of the new position. 
+A structure-of-arrays library for Rust, intended for use in data-oriented design and performance-critical software. It uses macros to generate linear data structures optimized for sequential access and SIMD operations while providing a safe, ergonomic API. 
+#v(0.75em)
 
-=== #link("https://github.com/tim-harding/Kradical")[Kradical]
+#head([Neophyte], "https://github.com/tim-harding/neophyte", [Rust, WebGPU])
+
+A WebGPU-rendered Neovim GUI, written in Rust. In addition to visual enhancements over the terminal experience, such as animations and smooth scrolling, it also provides a Lua API, allowing users to easily script and customize the interface.
+#v(0.75em)
+
+#head([Community Chess], "https://github.com/tim-harding/community_chess", [Python, SQLite])
+
+A collaborative chess game on Reddit, moderated by a Python bot. Users can submit and vote on move suggestions, and the bot will periodically play the top move and submit an image of the new position. 
+#v(0.75em)
+
+#head([Kradical], "https://github.com/tim-harding/Kradical", [Rust, TypeScript, Svelte])
 
 Utilities for working with the EDRDG Japanese dictionary, including text encoding converters, parsers, a REST API server with an access API in TypeScript, and a dictionary website created with Svelte. 
