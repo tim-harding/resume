@@ -63,9 +63,9 @@
 
 #head([Elvis], "https://github.com/cs-wwu/srg-elvis-public", [Rust])
 
-An Internet simulator created with the Systems Research Group at Western. Unlike existing simulators, it runs in user space to avoid the overhead of using virtual machines for isolation. As the lead author, I mentored and helped onboard thirteen graduate and undergraduate contributors by way of live coding lectures, pull request reviews, pair programming, and group discussion. I also wrote the majority of the core simulation code, including
+An Internet simulator created with the Systems Research Group at Western. Unlike existing simulators, it runs in user space to avoid virtual machine overhead. As the lead author, I mentored and onboarded thirteen graduate and undergraduate contributors by way of live coding lectures, pull request reviews, pair programming, and group discussion. I also wrote the majority of the core simulation code:
 #v(0.5em)
-- A multithreaded network abstraction, used to route packets between thousands of virtual devices and model diverse network topologies
+- A multithreaded network abstraction, used to route packets between thousands of virtual devices and model diverse networks
 - An operating system abstraction with networking stack extensibility
 - A novel data structure for packets, supporting zero-copy transmission and edits
 - A TCP/IP implementation that uses these technologies
@@ -78,14 +78,14 @@ A structure-of-arrays library for Rust, intended for use in data-oriented design
 
 #head([Neophyte], "https://github.com/tim-harding/neophyte", [Rust, WebGPU])
 
-A WebGPU-rendered Neovim GUI, written in Rust. In addition to visual enhancements over the terminal experience, such as animations and smooth scrolling, it also provides a Lua API, allowing users to easily script and customize the interface.
+A WebGPU-rendered Neovim GUI. In addition to visual enhancements over the terminal experience, such as animations and smooth scrolling, it also provides a Lua API, allowing users to easily script and customize the interface.
 #v(0.75em)
 
 #head([Community Chess], "https://github.com/tim-harding/community_chess", [Python, SQLite])
 
-A collaborative chess game on Reddit, moderated by a Python bot. Users can submit and vote on move suggestions, and the bot will periodically play the top move and submit an image of the new position. 
+A collaborative chess game, run by a moderation bot on Reddit. Users can submit and vote on move suggestions, and the bot will periodically play the top move, posting an image of the new position. 
 #v(0.75em)
 
 #head([Kradical], "https://github.com/tim-harding/Kradical", [Rust, TypeScript, Svelte])
 
-Utilities for working with the EDRDG Japanese dictionary, including text encoding converters, parsers, a REST API server with an access API in TypeScript, and a dictionary website created with Svelte. 
+Utilities for working with the EDRDG Japanese dictionary, including text encoding converters, parsers, a REST API server with a TypeScript client library, and a dictionary website created with Svelte. 
