@@ -6,7 +6,7 @@
     links: (
         ([(206) 852-4199], "tel:+12068524199"),
         ([Tim\@TimHarding.co], "mailto:tim@timharding.co"),
-        ([tim-harding.github.io], "https://tim-harding.github.io/"),
+        ([www.TimHarding.co], "https://www.timharding.co/"),
     ),
     doc
 )
