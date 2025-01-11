@@ -34,11 +34,13 @@
 
         To whom it may concern,
 
-        I wrote my first line of code ten years ago in 2015. A manual image processing task was slowing me down at the startup where I worked. I wanted to automate the process. At the suggestion of one of our developers, I learned how to do this on the job. Under their gracious mentorship, and with no prior knowledge, I was able to wrestle Python into rendering the task for me. From that first experience, I knew software would be my life's project. 
+        I wrote my first line of code ten years ago in 2015. A manual image processing task was slowing me down at the startup where I worked. I wanted to automate the process. At the suggestion of one of our developers, I learned how on the job. Under their gracious mentorship, I was able to wrestle Python into rendering the task for me. From that first experience, I knew software would be my life's project. 
 
         For another six years, I would continue finding opportunities to solve problems with code. In one role, I learned JavaScript to accelerate Photoshop tasks. In another, I learned C++ to provide beautiful shader effects to my team. Eventually, I proved my competence to leadership and worked alongside our C\# developers. Together, we delivered six virtual reality and game projects for our ad clients, half of them with Microsoft. 
 
-        Eventually, wanting to align my title and responsibilities with my skills, I completed my degree in computer science in 2023. I've since continued to learn, experiment, and push my bounds with new projects and technology. Each day rediscover the indomitable appeal of software, its abundance of challenge and opportunity. You who share a belief in the potential of software, kindly consider granting me a place in your team. I wish to grow alongside talented engineers and help deliver greatness. I'm sure you wish the same.
+        Eventually, wanting to align my title and responsibilities with my skills, I completed my degree in computer science in 2023. I've since continued to learn, experiment, and push my bounds with new projects and technology. Each day rediscover the indomitable appeal of software, its abundance of challenge and opportunity. 
+
+        You who share my belief in the potential of software, kindly consider granting me a place in your team. I wish to grow alongside talented engineers and help deliver greatness. I'm sure you wish the same.
 
         Sincerely,
 
