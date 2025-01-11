@@ -38,7 +38,7 @@
 
         For another six years, I would continue finding opportunities to solve problems with code. In one role, I learned JavaScript to accelerate Photoshop tasks. In another, I learned C++ to provide beautiful shader effects to my team. Eventually, I proved my competence to leadership and worked alongside our C\# developers. Together, we delivered six virtual reality and game projects for our ad clients, half of them with Microsoft. 
 
-        Eventually, wanting to align my title and responsibilities with my skills, I completed my degree in computer science in 2023. I've since continued to learn, experiment, and push my bounds with new projects and technology. Each day rediscover the indomitable appeal of software, its abundance of challenge and opportunity. 
+        Eventually, wanting to align my title and responsibilities with my skills, I completed my degree in computer science in 2023. I've since continued to learn, experiment, and push my bounds with new projects and technology. Each day I rediscover the indomitable appeal of software, its abundance of challenge and opportunity. 
 
         You who share my belief in the potential of software, kindly consider granting me a place in your team. I wish to grow alongside talented engineers and help deliver greatness. I'm sure you wish the same.
 
