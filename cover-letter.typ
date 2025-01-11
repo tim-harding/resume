@@ -40,8 +40,14 @@
 
         Eventually, to align my title and responsibilities with my skills, I completed my degree in computer science in 2023. I've since continued to learn, experiment, and push my bounds with new projects and technology. Still today I am rediscovering the indomitable appeal of software that springs from its breadth, depth, and opportunity. You who share a belief in the potential of software, kindly consider my offer to work with your team. I wish to grow alongside talented engineers and help deliver greatness. I'm sure you wish the same.
 
+        #set par(
+            leading: 0pt,
+            spacing: 0pt,
+        )
         Sincerely,
-
+        #v(18pt)
+        #image("./signature.svg", width: 96pt)
+        #v(6pt)
         Tim Harding
     ]
 )
