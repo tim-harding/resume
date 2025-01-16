@@ -1,5 +1,5 @@
 #import "concourse.typ": *
-#set page(paper: "us-letter", margin: (top: 1in, bottom: 1in, x: 1in))
+#set page(paper: "us-letter", margin: (top: 1in, bottom: 0in, x: 1in))
 #set text(
     font: concourse(),
     weight: regular,
@@ -30,8 +30,6 @@
     ],
     grid.cell[
         #v(5pt)
-        14 January 2025
-
         Hi Axon,
 
         I'm Tim Harding, an aspiring software developer in Washington seeking his first full-time engineering role after finishing a computer science degree. This week, I enjoyed a conversation with one of your software engineers. I was struck by Axon's ambition to render the bullet absolete. Be it a camera system or software for officers in the field, your offerings demonstrate a commitment to solving real problems and realizing a vision for the future. Each product telegraphs Axon's mission to protect life. 
@@ -44,12 +42,6 @@
          
         Thank you for your consideration,
 
-        #set par(
-            leading: 0pt,
-            spacing: 0pt,
-        )
-        Tim Harding
-        #v(18pt)
         #image("./signature.svg", width: 96pt)
     ]
 )
