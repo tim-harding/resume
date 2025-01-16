@@ -34,13 +34,15 @@
 
         Hi Axon,
 
-        25 May 2020 was a wakeup call, for myself and my country. At the marches following Floyd's death, the need for accountability and de-escalation in policing rang clear. We need law enforcement that values life, truth, and justice. Along with culture, technology can help shape policing to align with those virtues. I wish to help Axon lead that effort. 
-
-        Axon VR Training is one area of Axon's portfolio where I have relevant experience. I first worked with VR technology at Prizmiq, a startup building 3D product viewers. Later, at the agency Ten Gun Design, I helped program an early Microsoft HoloLens demo, lead development of a VR app, and delivered two other game projects for Microsoft. I would be grateful to use my experience shipping VR and AR software to train officers on life-saving technology.
-
-        I also have the background in both frontend and backend web development to contribute to Axon's suite of software. On the backend, I have worked with Go, C\#, Node.js, and SQL. The majority of my shipped software at Ten Gun Design used C\# and .NET. I have also written web apps using React, mobile apps with React Native, and shipped full-stack apps for freelance clients at T-Mobile and All Cylinders. 
-
-        There's never been a more time for public safety innovation. I hope to help drive that innovation with your team at Axon. 
+        My name is Tim Harding and I’m an aspiring software engineer based out of Bellingham, WA. I recently graduated from the computer science program at Western Washington University and I’m currently looking for my first full time software engineering role.
+         
+        Last week, I had a fantastic conversation with a software engineer at Axon. During our chat, we talked about Axon’s mission of Protecting Life, and I was super impressed to hear about how the company’s mission has been interwoven into all the company’s product lines and services. Specifically, it was fascinating to hear about how the north star goal of the Taser product line is to make the bullet obsolete, and about all the value that body and dash cameras have given police officers in terms of having an objective record of their interactions with the public.
+         
+        One product that really stood out to me though was your Virtual Reality Training offerings. I was so excited to hear about the problem space and the solutions that Axon has come up with here. As I mentioned on my resume, I’ve have a fair amount of experience in the VR space including two years at Prizmiq where I built and operated a photogrammetry content pipeline for 3D e-commerce imagery, and five years at Ten Gun Design, where I helped program an early Microsoft HoloLens demo, lead development of a VR app, and delivered two other game projects to Microsoft. I feel like I would be well equipped to add a lot of value to Axon’s VR offerings.
+         
+        Beyond my experience with VR, I also have experience with both front-end and back-end web development. On the front end, I have experience writing web apps using React and mobile apps with React Native, and I’ve shipped full-stack apps for freelance clients at T-Mobile and All Cylinders. On the back end, I’ve worked in Go, C\#, Node.js, and SQL, and the majority of my projects at Ten Gun Design were written in C\#.
+         
+        As our conversation wrapped up, I left with a strong sense that the work that is happening at Axon matters a lot, and I would love to be a part of it going forward. Thank you so much for your consideration!
 
         Sincerely,
 
