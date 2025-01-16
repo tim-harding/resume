@@ -32,7 +32,7 @@
         #v(5pt)
         Hi Axon,
 
-        I'm Tim Harding, an aspiring software developer in Washington seeking his first full-time engineering role after finishing a computer science degree. This week, I enjoyed a conversation with one of your software engineers. I was struck by Axon's ambition to render the bullet absolete. Be it a camera system or software for officers in the field, your offerings demonstrate a commitment to solving real problems and realizing a vision for the future. Each product telegraphs Axon's mission to protect life. 
+        I'm Tim Harding, an aspiring software developer in Washington seeking his first full-time engineering role after finishing a computer science degree. This week, I enjoyed a conversation with one of your software engineers. I was struck by Axon's ambition to render the bullet obsolete. Be it a camera system or software for officers in the field, your offerings demonstrate a commitment to solving real problems and realizing a vision for the future. Each product telegraphs Axon's mission to protect life. 
          
         Virtual reality training stands out as an example of your company's bold vision. As mentioned on my resumé, I have worked with VR since my career began ten years ago. Between contributing to an early Hololens demo, leading development of a VR automotive experience, and shipping multiple game projects for Microsoft, I know the potential of this technology. Training officers to handle intense encounters is the strongest application of VR I have seen. It shows me that Axon finds the tool behind the trend and holds true to its obsession of delivering value.
          
